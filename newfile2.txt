@@ -1,0 +1,6 @@
+It is my new file to push on Git.
+
+I am editing the file to learn the concept of branches.
+
+Now editting it from local directory.
+

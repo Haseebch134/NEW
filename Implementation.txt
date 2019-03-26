@@ -1,0 +1,141 @@
+git log
+
+commit ccb4ef0a8a7d11fda20ddbf5c349d93538155538
+Author: Haseeb <haseebch134@gmail.com>
+Date:   Thu Mar 21 19:11:50 2019 +0500
+
+    Assing change from local directory
+
+commit e25673ae5fe2b23072a7fc60819a71aac0e753d2
+Author: Muhammad Haseeb Chaudhary <37152338+Haseebch134@users.noreply.github.com>
+Date:   Thu Mar 21 17:48:29 2019 +0500
+
+    Update newfile
+
+commit 98edd6bdd96f4c67320782a5e9085ae308345862
+Author: Haseeb <haseebch134@gmail.com>
+Date:   Thu Mar 21 15:39:31 2019 +0500
+
+    Pushing to git
+
+commit 0593849f00e88773c944affe893caffbb742ea70
+Author: Muhammad Haseeb Chaudhary <37152338+Haseebch134@users.noreply.github.com>
+Date:   Thu Mar 21 14:59:46 2019 +0500
+
+    cmt
+
+*********************************************************************************
+
+git add .
+git status
+
+haseeb@haseeb-ubuntu:~/Desktop/Github/GIT$ git add .
+haseeb@haseeb-ubuntu:~/Desktop/Github/GIT$ git status
+On branch NewBranch
+Your branch is up-to-date with 'origin/NewBranch'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   NewFile_2
+
+*********************************************************************************
+git commit -m "Commiting to the directory"
+
+On branch NewBranch
+Your branch is up-to-date with 'origin/NewBranch'.
+Untracked files:
+	NewFile_2
+
+nothing added to commit but untracked files present
+
+*********************************************************************************
+
+git rm
+
+*********************************************************************************
+git status
+
+On branch NewBranch
+Your branch is up-to-date with 'origin/NewBranch'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	NewFile_2
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+********************************************************************************
+
+git diff
+
+-git clone
++git clone https://github.com/Haseebch134/GIT.git
++
++
++134/GIT.git
++Cloning into 'GIT'...
++remote: Enumerating objects: 12, done.
++remote: Counting objects: 100% (12/12), done.
++remote: Compressing objects: 100% (5/5), done.
++remote: Total 12 (delta 1), reused 7 (delta 1), pack-reused 0
++Unpacking objects: 100% (12/12), done.
++Checking connectivity... done.
++
+ 
+
+
+********************************************************************************
+git init
+
+Reinitialized existing Git repository in /home/haseeb/Desktop/Github/GIT/.git/
+
+
+********************************************************************************
+git checkout NewBranch
+
+A	NewFile_2
+Already on 'NewBranch'
+Your branch is up-to-date with 'origin/NewBranch'.
+
+********************************************************************************
+git branch
+
+* NewBranch
+  master
+
+********************************************************************************
+git push origin NewBranch
+
+Username for 'https://github.com': Haseebch134
+Password for 'https://Haseebch134@github.com': 
+Everything up-to-date
+haseeb@haseeb-ubuntu:~/Desktop/Github/GIT$ 
+
+********************************************************************************
+git fetch origin NewBranch
+
+From https://github.com/Haseebch134/GIT
+ * branch            NewBranch  -> FETCH_HEAD
+
+********************************************************************************
+git pull
+
+Already up-to-date.
+
+********************************************************************************
+git mv
+********************************************************************************
+git clone https://github.com/Haseebch134/GIT.git
+
+
+134/GIT.git
+Cloning into 'GIT'...
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 12 (delta 1), reused 7 (delta 1), pack-reused 0
+Unpacking objects: 100% (12/12), done.
+Checking connectivity... done.
+
+
+********************************************************************************
